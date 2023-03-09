@@ -25,7 +25,7 @@ model.fit(X_train, y_train)
 # Define Streamlit app
 def app():
     # Load image
-    image_path = 'suv_car.jpeg'
+    image_path = 'suv_car.jpg'
     # Display image centered with fixed size of 200x200
     with st.container():
         st.image(image_path, width=350)
